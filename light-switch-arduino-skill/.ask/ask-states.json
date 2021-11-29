@@ -1,0 +1,33 @@
+{
+  "askcliStatesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillId": "amzn1.ask.skill.a5761310-975d-43ca-bbfe-d8331611291b",
+      "skillInfrastructure": {
+        "@ask-cli/cfn-deployer": {
+          "deployState": {}
+        },
+        "@ask-cli/lambda-deployer": {
+          "deployState": {
+            "default": {
+              "iamRole": "arn:aws:iam::989495355885:role/ask-lambda-light-switch-arduino-skill-1601784185623",
+              "lambda": {
+                "arn": "arn:aws:lambda:us-east-1:989495355885:function:ask-light-switch-arduino-s-default-default-1601784188341",
+                "lastModified": "2020-10-04T20:29:46.893+0000",
+                "revisionId": "ff606058-ac0c-4e7b-a54b-750a05d67c85"
+              }
+            }
+          }
+        }
+      },
+      "skillMetadata": {
+        "lastDeployHash": "ABwhe2CVsmsUz9f310fSCwxBucg="
+      },
+      "code": {
+        "default": {
+          "lastDeployHash": "hzE5gHhS4v2CgluuRTweWP2h7Vc="
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "placa arduino",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "LightOnIntent",
+                    "slots": [],
+                    "samples": [
+                        "acender a luz",
+                        "ligar a luz"
+                    ]
+                },
+                {
+                    "name": "LightOffIntent",
+                    "slots": [],
+                    "samples": [
+                        "desligar a luz",
+                        "apagar a luz"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+  }
+  

@@ -1,0 +1,29 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Skill to turn on/off lights",
+          "examplePhrases": [
+            "acender a luz",
+            "desligar a luz"
+          ],
+          "name": "light-switch-arduino-skill",
+          "description": "Skill to turn on/off lights"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:$REGION:$ACCOUNT_ID:function:ask-light-switch-arduino"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
